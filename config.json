@@ -1,0 +1,17 @@
+{
+  "architectures": [
+    "nanoMoE"
+  ],
+  "model_type": "nanomoe",
+  "vocab_size": 50257,
+  "d_model": 512,
+  "num_layers": 8,
+  "num_heads": 8,
+  "d_ff": 1360,
+  "num_experts": 4,
+  "top_k": 2,
+  "context_length": 512,
+  "rope_theta": 10000.0,
+  "use_noisy_top_k": true,
+  "torch_dtype": "bfloat16"
+}
