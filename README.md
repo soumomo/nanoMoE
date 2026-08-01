@@ -67,7 +67,7 @@ A modern 120M parameter **sparse Mixture-of-Experts (MoE)** Large Language Model
 | **Attention Mechanism** | Multi-head Latent Attention (MLA) |
 | **Attention Heads (`num_heads`)** | **8** |
 | **Embedding Dim (`d_model`)** | **512** |
-| **Feed-Forward Dim (`d_ff`)** | **1,360** ($\frac{8}{3} d_{\text{model}}$ SwiGLU ratio) |
+| **Feed-Forward Dim (`d_ff`)** | **1,360** (8/3 * d_model SwiGLU ratio) |
 | **Experts per Layer** | **4** |
 | **Active Experts per Token (`top_k`)** | **2** |
 | **Routing Mechanism** | Noisy Top-K Gating + Switch Transformer Load Balancing Loss |
