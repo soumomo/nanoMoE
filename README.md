@@ -4,8 +4,7 @@
 
 A modern 120M parameter **sparse Mixture-of-Experts (MoE)** Large Language Model built from scratch in PyTorch, featuring DeepSeek-style **Multi-head Latent Attention (MLA)**, **SwiGLU** gated activations, **RoPE** positional embeddings, and **Noisy Top-2 Expert Routing**. Pre-trained on **`HuggingFaceFW/fineweb-edu` (sample-10BT)** on NVIDIA H100 GPUs via Modal Cloud.
 
-🤗 **Hugging Face Model**: [momoketchum/nanoMoE](https://huggingface.co/momoketchum/nanoMoE)  
-💻 **GitHub Repository**: [soumomo/nanoMoE](https://github.com/soumomo/nanoMoE)
+🤗 **Hugging Face Model**: [momoketchum/nanoMoE](https://huggingface.co/momoketchum/nanoMoE)
 
 ---
 
